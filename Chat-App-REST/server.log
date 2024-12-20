@@ -1,0 +1,44 @@
+Dec 14, 2024 4:32:16 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Starting HTTP server...
+Dec 14, 2024 4:32:16 PM org.glassfish.jersey.server.wadl.WadlFeature configure
+WARNING: JAXBContext implementation could not be found. WADL feature is disabled.
+Dec 14, 2024 4:32:16 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [localhost:8080]
+Dec 14, 2024 4:32:16 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Dec 14, 2024 4:32:16 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: HTTP service available at http://localhost:8080...
+Dec 14, 2024 4:32:16 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Starting gRPC server...
+Dec 14, 2024 4:32:16 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: GRPC service available at grpc://localhost:9090...
+Dec 14, 2024 4:32:16 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Hit enter to stop...
+Dec 14, 2024 4:33:37 PM edu.stevens.cs522.chat.webservice.ChatResource log
+INFO: DEBUG: Received logs request
+Dec 14, 2024 4:36:18 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (appId=fd3214e7-d5b5-4f1d-b495-c92512524d7b, chat-name=Joe)
+Dec 14, 2024 4:36:18 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Joe with UUID fd3214e7-d5b5-4f1d-b495-c92512524d7b.
+Dec 14, 2024 4:41:28 PM edu.stevens.cs522.chat.webservice.ChatResource log
+INFO: DEBUG: Received logs request
+Dec 14, 2024 4:42:13 PM edu.stevens.cs522.chat.webservice.ChatResource log
+INFO: DEBUG: Received logs request
+Dec 14, 2024 4:42:41 PM edu.stevens.cs522.chat.webservice.ChatResource log
+INFO: DEBUG: Received logs request
+Dec 14, 2024 4:42:58 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received messages request
+Dec 14, 2024 4:42:58 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages.
+Dec 14, 2024 5:11:49 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received messages request
+Dec 14, 2024 5:11:49 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages.
+Dec 14, 2024 5:11:55 PM edu.stevens.cs522.chat.webservice.ChatResource log
+INFO: DEBUG: Received logs request
+Dec 14, 2024 5:33:50 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (appId=4026945b-9895-4e42-8c0e-aa9ae6ca3977, chat-name=Joe)
+Dec 14, 2024 5:33:50 PM edu.stevens.cs522.chat.web.model.Peers register
+INFO: Re-registering user with chat name Joe, app id 4026945b-9895-4e42-8c0e-aa9ae6ca3977
+Dec 14, 2024 5:33:50 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Joe with UUID 4026945b-9895-4e42-8c0e-aa9ae6ca3977.
